@@ -1,18 +1,25 @@
 body {
-    position: relative;
-    width: 940px;
-    height: 400px;
+    position: absolute;
+    width: 1000px;
+    height: auto;
 
     /* Light blue/light-blue-100 */
 
     background: #D8DFE8;
+    
 }
 
-header {
+h1 {
+    width: auto;
     margin: 20px auto;
     padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
 
 }
+
+
 
 #main {
     width: 70%;
@@ -31,7 +38,7 @@ header {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 150%;
 
     color: #0A3871;
@@ -59,28 +66,9 @@ header {
 
 }
 
-#advertencia{
-    font-size: 10px;
-    
-}
 
-.advertencia {
-    
-    width: 300px;
-    height: 18px;
-    
-    font-family: 'Inter';
-    font-style:italic;
-    font-weight: 400;
-    font-size: 12px;
-    font-weight: bolder;
-   
-    padding: 0 0 0 250px;
-      
-    color: #495057;
-    opacity: 0.8;
 
-}
+
 
 #desencriptar {
     box-sizing: border-box;
@@ -155,11 +143,85 @@ header {
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
+    
 
 }
 
-.frame5 {
-    /* Frame 5 */
+#resultado{
+    padding: 3rem 0;
+    cursor: pointer;
+}
+
+#resultado:active{
+    color: lightskyblue
+    
+   
+}
+
+.frame5 h3{
+    font-size: 15px;
+    text-align: center;
+    color: #495057;
+    margin: 2rem 2rem;
+
 
 
 }
+
+.advertencia{
+    color: #495057;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: bottom;
+    
+   
+    
+
+    
+    
+}
+
+
+@media screen and (max-width:480px) {
+
+    body{
+
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    h1{
+            text-align: center;
+            
+    }
+
+    .input-text{
+            position: auto;
+    }
+    
+    #encripter-desencripter {
+        display: flex;
+        align-items: center;
+        
+    }
+
+
+
+    #rectangle{
+        position: absolute;
+        top: 650px;
+        left: 300px;
+        height: 30%;
+        width: 50%;
+        margin: 20px 10px 0 10px ; 
+    }
+  
+
+
+
+    
+}
+
