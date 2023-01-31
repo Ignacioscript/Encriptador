@@ -1,0 +1,165 @@
+body {
+    position: relative;
+    width: 940px;
+    height: 400px;
+
+    /* Light blue/light-blue-100 */
+
+    background: #D8DFE8;
+}
+
+header {
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+#main {
+    width: 70%;
+
+}
+
+.input-text {
+    /* Ingrese el texto aqui */
+
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+
+}
+
+
+#encripter-desencripter {
+
+    /* Frame 3 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 500px;
+
+}
+
+#advertencia{
+    font-size: 10px;
+    
+}
+
+.advertencia {
+    
+    width: 300px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style:italic;
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: bolder;
+   
+    padding: 0 0 0 250px;
+      
+    color: #495057;
+    opacity: 0.8;
+
+}
+
+#desencriptar {
+    box-sizing: border-box;
+    /* Auto layout */
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+    color: #0A3871;
+    text-align: center;
+    font-weight: bold;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+}
+
+#encriptar {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+#rectangle {
+
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+
+#resultado{
+    width: 400px;
+    text-align: center;
+    color: #0A3871;
+    vertical-align: middle;
+    height: 100px;
+    left: 1000px;
+    top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.frame5 {
+    /* Frame 5 */
+
+
+}
